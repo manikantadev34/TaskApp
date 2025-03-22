@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="shortcut icon" href="./images.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="Todo_app">
+        <button id="Themes">Switch Theme 🌙</button>
+        <h2>To-Do List</h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Type here about your next task..." />
+            <button onclick="AddTask();" id="button1">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+        <button onclick="clearAll();" id="button2">Clear All</button>
+    </div>
+</body>
+
+</html>
